@@ -1,3 +1,4 @@
+%% Backtrack algorithm for finding the step size t
 function [t] = BackTrack(A,x,alpha,beta)
 t = 1;
 fk=-sum(log(1-A*x))-sum(log(1-x.*x));
